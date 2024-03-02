@@ -4,7 +4,7 @@ import re
 import urllib.request
 
 # Define the directory path where JSON files are located
-directory_path = r'D:\database' # Directory path for the folder installed in my repo
+directory_path = r'' # Directory path for the folder installed in my repo
 
 # Define the base filename for the reports
 base_filename = 'reports_piiremoved'
@@ -18,7 +18,7 @@ start_year = 2019
 end_year = 2024
 
 criteria = {
-    'os': 'SteamOS Holo',  # Write your Linux OS name here (case-sensitive)
+    'os': '',  # Write your Linux OS name here (case-sensitive)
     'cpu': '',  # Write your CPU brand name here (case-sensitive)
     'gpu': ''  # Write your GPU brand name here (case-sensitive)
 }
@@ -27,7 +27,7 @@ criteria = {
 months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
 
 # Fetch app IDs from the link provided(specifically
-webUrl = urllib.request.urlopen('https://store.steampowered.com/wishlist/profiles/76561198851666901#sort=order')
+webUrl = urllib.request.urlopen('')
 #provide your steam profile wishlist link in this format https://store.steampowered.com/wishlist/profiles/XXXXXXXXXXXXXXXXX#sort=order
 html_content = webUrl.read().decode('utf-8')
 pattern = re.compile(r'var g_rgWishlistData = (.*?);', re.DOTALL)
