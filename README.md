@@ -14,6 +14,7 @@ This is my first my project analysing data from the [protondb-data](https://gith
 11. Update the folder when you see new file uploaded in the protondb-data repo and repeat
 ### Notice
 -There is a problem i have encountered and i don't know if you have the same but in my country(Viet Nam). Whenever i try to login into the steam store using Chrome, it always returns an error saying that "This site can’t be reached" with line below saying "DNS_PROBE_FINISHED_NXDOMAIN". 
+
 -I have figured a way to fix this issue by changing the DNS server but my code just won't run on my machine even if i have modified the dns server. So that's something to keep in mind before you clone this repo
 
  That is all i have to say about this project. I'm very proud of it and i hope this project will help Linux users who
