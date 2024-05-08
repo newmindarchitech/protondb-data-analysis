@@ -1,5 +1,5 @@
 # proton-data-base-report
-This is my first my project analysing data from the [protondb-data](https://github.com/bdefore/protondb-data)github repo.The purpose of this project is to use the data from the repo along with my code to analyse and return user reviews that matches their Linux OS,CPU and GPU specifications
+This is my first my project analysing data from the [protondb-data](https://github.com/bdefore/protondb-data)github repo.The purpose of this project is to help Linux users who have a lot of games in the wishlist to be able to read user reviews for the game output by the program instead of having to go to the [protondb](https://www.protondb.com/) website to read each user review of the game manually(For a person like me who have 208 games in the wishlist).
 ## What to do
 1. Clone this repo in your machine
 2. Download Data: Download the data from the [protondb-data](https://github.com/bdefore/protondb-data) repository. Ensure that you have extracted the JSON files from the tar archive.
@@ -13,9 +13,12 @@ This is my first my project analysing data from the [protondb-data](https://gith
 10. Input the number correlating to the game title and the code will output relevant user reviews of the game
 11. Update the folder when you see new file uploaded in the protondb-data repo and repeat
 ### Notice
--There is a problem i have encountered and i don't know if you have the same but in my country(Viet Nam). Whenever i try to login into the steam store using Chrome, it always returns an error saying that "This site can’t be reached" with line below saying "DNS_PROBE_FINISHED_NXDOMAIN". 
+-I have encountered a problem in trying to access steam it says "This site can’t be reached" with a line below saying "DNS_PROBE_FINISHED_NXDOMAIN". This problem only occurs on my Windows laptop and when i try to to login into steam on desktop(soon to be replaced) I have no problem whatsoever.
 
--I have figured a way to fix this issue by changing the DNS server but my code just won't run on my machine even if i have modified the dns server. So that's something to keep in mind before you clone this repo
+-I have figured a way to fix this issue by changing the DNS server but my code won't run on my machine even after i have modified the dns server. So if this problem happends to you, don't clone this repo
+## Weakness
+- Can't analyse the json files uploaded in 2019 from the repo due to different json structure for the json files at the time
 
- That is all i have to say about this project. I'm very proud of it and i hope this project will help Linux users who
-doesn't have time to read through numerous reviews if you have alot of games in the wishlist
+- Can't display the proton version of user review(at least not consistently)
+
+That is all I have to say about this project. I'm very proud of it and i hope this project will Linux users who have a lot of Steam games in the wishlist and don't have the time to read users reviews for fixes to your games from the protondb website 
