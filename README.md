@@ -13,9 +13,9 @@ This is my first my project analysing data from the [protondb-data](https://gith
 10. Input the number correlating to the game title and the code will output relevant user reviews of the game
 11. Update the folder when you see new file uploaded in the protondb-data repo and repeat
 ### Notice
--I have encountered a problem in trying to access steam it says "This site can’t be reached" with a line below saying "DNS_PROBE_FINISHED_NXDOMAIN". This problem only occurs on my Windows laptop and when i try to to login into steam on desktop(soon to be replaced) I have no problem whatsoever.
+- I have encountered a problem in trying to access steam it says "This site can’t be reached" with a line below saying "DNS_PROBE_FINISHED_NXDOMAIN". This problem only occurs on my Windows laptop and when i try to to login into steam on desktop(soon to be replaced) I have no problem whatsoever.
 
--I have figured a way to fix this issue by changing the DNS server but my code won't run on my machine even after i have modified the dns server. So if this problem happends to you, don't clone this repo
+- I have figured a way to fix this issue by changing the DNS server but my code won't run on my machine even after i have modified the dns server. So if this problem happends to you, don't clone this repo
 ## Weakness
 - Can't analyse the json files uploaded in 2019 from the repo due to different json structure for the json files at the time
 
