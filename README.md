@@ -1,4 +1,4 @@
-# 1.proton-data-base-report
+# 1.Protondb-data Analysis
 This is my first my project analysing data from the [protondb-data](https://github.com/bdefore/protondb-data) github repo.The purpose of this project is to help Linux users who have a lot of games in the wishlist to be able to read user reviews for the game output by the program instead of having to go to [protondb](https://www.protondb.com/) website to read each user review of the game manually(For a person like me who have 208 games in the wishlist).
 ## 2.What to do
 1. Clone this repo in your machine
