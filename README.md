@@ -4,7 +4,7 @@ This is my first my project analysing data from the [protondb-data](https://gith
 1. Clone this repo in your machine
 2. Download the data from the [protondb-data](https://github.com/bdefore/protondb-data) repository. Ensure that you have extracted the JSON files from the tar archive.
 3. Append the upload date and year of the json file(see the date modified for Windows) at the end of each JSON file extracted. For example, rename reports_piiremoved.json to reports_piiremoved(apr 2019).json.
-4. For Linux users, you can use the ls-l command to see the modified date of the extracted json file and append the modified date to the end of the json file using the mv command and change to the new name of the json file under apostrophe ('').
+4. For Linux users, use tar xvf command then use ls -l command to see the modified date of the extracted json file and append the modified date to the end of the json file using the mv command and change to the new name of the json file under apostrophe ('').
 5. Put all the renamed json files in a folder
 6. Copy the full folder path and paste it in the directory_path = r''
 7. Login into your steam account on the steam website, click onto your wishlist and copy the whole link and paste it in the webUrl = urllib.request.urlopen('')
