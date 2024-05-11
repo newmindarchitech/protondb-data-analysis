@@ -14,6 +14,6 @@ This is my first my project analysing data from the [protondb-data](https://gith
 11. Input the number that matches the game title and the code will output user reviews
 12. Update the folder when a new file is uploaded in the protondb-data repo and repeat
 ### 3.Notice
-For Vietnamese users who are currently affected by the sudden incapability to enter the steam store website. You can follow [this video](https://www.youtube.com/watch?v=uq2LwahDhTM&t=479s) to resolve the issue.For future events when this problem no longer exists, please ignore this notice.
+For Vietnamese users who are currently affected by the sudden incapability to enter the steam store website. You can follow [this video](https://www.youtube.com/watch?v=uq2LwahDhTM&t=479s) to resolve the issue.For future events when the solution to this problem is no longer applicable, please ignore this notice.
 
 That is all I have to say about this project. I'm very proud of it and i hope this project will help Linux users who have a lot of Steam games in the wishlist and don't have the time to read users reviews for fixes to your games from the protondb website 
